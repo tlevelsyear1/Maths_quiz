@@ -18,7 +18,7 @@ first_name_entry.pack
  
  
 #Colours
-PASTEL_PINK = '#F03B39'
+PASTEL_PINK = '#AAFCFF'
 window.config(bg=PASTEL_PINK)
  
 #function
