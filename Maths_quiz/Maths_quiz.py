@@ -3,7 +3,7 @@ from tkinter import ttk
 import datetime
 import random
  
-# Window creation.
+# Window creation....
 window = Tk.Tk()
 window.title('Maths Quiz For Kids!')
 window.geometry ('700x600')
