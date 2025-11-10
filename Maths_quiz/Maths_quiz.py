@@ -19,8 +19,8 @@ first_name_entry.pack
  
  
 #Colours
-PASTEL_PINK = '#F03B39'
-window.config(bg=PASTEL_PINK)
+PASTEL_BLUE = '#AFFAFD'
+window.config(bg=PASTEL_BLUE)
  
 #function
 def subtraction():
