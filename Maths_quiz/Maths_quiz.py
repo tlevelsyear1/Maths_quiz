@@ -26,29 +26,42 @@ window.config(bg=PASTEL_PINK)
 def subtraction():
 
     score = 0
-    for i in range(4):
+    total_questions = 10
+    for i in range(total_questions):
         num1 = random.randint(1, 20)
         num2 = random.randint(1, 20)
         correct_answer = num1 - num2
+        print(f"Question {i-1}: {num1} - {num2} = ?")
         user_answer = int(input(f"{num1} - {num2} = "))
         if user_answer == correct_answer:
+            print("?? Correct!")
             score += 1
+        else:
+            print("? Wrong! the correct answer was {correct_answer}")
+
+        print("{score} {total_questions} right!")
     return score
  
  
 def addition():
 
+    
     score = 0
-
-    for i in range(4):
+    total_questions = 10
+    for i in range(total_questions):
         num1 = random.randint(1, 20)
         num2 = random.randint(1, 20)
-        correct_answer = num1 + num2
+        correct_answer = num1 - num2
+        print(f"Question {i+1}: {num1} + {num2} = ?")
         user_answer = int(input(f"{num1} + {num2} = "))
         if user_answer == correct_answer:
+            print("?? Correct!")
             score += 1
-    return score
+        else:
+            print("? Wrong! the correct answer was {correct_answer}")
 
+        print("{score} {total_questions} right!")
+    return score
  
  
 #Treeview for scores+
