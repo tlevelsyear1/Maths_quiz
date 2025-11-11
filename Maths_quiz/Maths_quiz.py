@@ -64,7 +64,7 @@ def addition():
     return score
  
  
-#Treeview for scores+
+#Treeview for scores+.
 treeview = ttk.Treeview(columns=("Sudent","Score"))
  
 treeview.heading("#0", text="Name")
